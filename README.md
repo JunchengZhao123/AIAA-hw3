@@ -2,6 +2,11 @@
 
 ## Instructions
 ```bash
-# 这是一个命令行指令的示例
-git clone https://github.com/your-repo.git
-cd your-repo
+# Assume all the python files are under my folder hw3
+# First, train the VideoSwinTransformer model
+$ python train1.py
+```
+```bash
+# Then do test using model generated from last procedure
+$ python test2csv1.py
+```
